@@ -1,0 +1,132 @@
+body{
+    
+    font-size: 18px;
+    margin: 0 auto; /*centers everything on the page */
+    overflow-x: hidden;
+    background-image: url("../images/dust_scratches.png")
+    /* background-image: url("../images/stardust.png") */
+}
+.name{
+    background: olivedrab;
+    padding: 5px;
+    width: 315px;   
+    text-align: center; 
+    color: #fafafa;
+}
+.full-length-footer{
+    margin: 0 -9999rem;
+  /* add back negative margin value */
+    /* padding: 0rem 9999rem; */
+}
+#navbar{
+    color:olivedrab;
+    font-weight: bold;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+li{
+    display:inline-block;
+    padding: 0px .5em
+}
+#section{
+    /* width: 620px;     */
+    /* margin:25px 0px 15px 0px; */
+    background-color: #fafafa;
+    padding: 10px;    
+}
+#connect{
+    text-align: center;
+}
+.aboutMe p{
+    line-height: 2;
+}
+.panel{
+    background-color: #fafafa !important;
+}
+.aboutMe img{
+    height:125px;
+    float: left;
+    transform: rotate(90deg);    
+    margin-top: 30px; 
+}
+#footer{
+    margin-top:30px;
+    display:block;
+    position: relative;
+    clear: both;
+    text-align: center;
+}
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    color: #eee;
+}
+#footer .main{
+    font-size: 12px;
+    background-color:olivedrab;
+    padding-top: 50px;
+}
+#footer .thin-green-line{
+    
+    background-color: #fdd46a;
+}
+h2{
+    color: #fdd46a;
+    font-weight: bold;
+}
+#connect img{
+    height: 65px;
+    width: 65px;
+}
+textarea{
+    margin: 0px;
+    width: 617px;
+    height: 310px;
+}
+input{
+    height:30px;
+}
+a{text-decoration: none;}
+a:link{ color: olivedrab    !important}
+a:visited { color: olivedrab !important ; }
+a:hover { color: #fdd46a !important; }
+a:active { color: #c4c2c2 !important; }
+
+.overlay {
+    position: absolute;
+    width: 180px;
+    height: 0px;
+    background-color: #fdd46a;
+    z-index: 2;
+    padding-bottom: 24px;
+    padding-top: 10px;
+}
+ .hangman{
+    bottom: 368px; /*7 from bottom*/
+}
+.rpg{
+    bottom: 368px; /*7 from bottom*/
+} 
+.trivia{
+    bottom: 212px; /*7 from bottom*/
+}
+.rutgers{
+    bottom: 212px; /*7 from bottom*/
+}
+.rock{
+    bottom: 59px; /*7 from bottom*/
+}
+table img{
+    height: 118.3px;
+}
+form{
+    padding-left: 20px;
+
+}
